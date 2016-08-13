@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".SlideTimingsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/layout_status"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/page_title_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/slide_timings"
+            android:textColor="#666666"
+            android:textSize="15sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/primarni_background"
+        android:fillViewport="true"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF" />
+
+    <!-- sadržaj stranice -->
+
+    <LinearLayout
+        android:id="@+id/layout_sadrzaj"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#D3D3D3"
+        android:fillViewport="true"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/lvSlideTimings"
+            style="@style/ListOfItems">
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/llEmptySlideTimings"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_slide_measurements"
+                android:textColor="#4D4D4D"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
+    <!-- donji status bar -->
+
+    <RelativeLayout
+        android:id="@+id/layout_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/footer_bg"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <TextView
+            android:id="@+id/tvNextActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvLastSync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dp"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

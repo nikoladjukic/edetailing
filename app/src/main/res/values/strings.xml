@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">eDetailing</string>
+    <string name="img_desc">eDetailing</string>
+    <string name="presentations">Presentations</string>
+    <string name="all_presentations_no_presentations">No Presentations Downloaded Yet</string>
+    <string name="slide_timings">Slide Timings</string>
+    <string name="slide_timings_no_slide_timings">No Presentations Downloaded Yet</string>
+    <string name="all_presentations_menu_item_title">Presentations</string>
+    <string name="all_slide_timings_menu_item_title">Slide Measurements</string>
+    <string name="synchronize_menu_item_title">Synchronize</string>
+    <string name="logout_menu_item_title">Logout</string>
+    <string name="no_slide_measurements">There are no slide measurements yet recorded!</string>
+</resources>

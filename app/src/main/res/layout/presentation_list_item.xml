@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListLayoutStyle"
+    android:layout_marginBottom="5dp" >
+
+    <TextView
+        android:id="@+id/tvPresName"
+        style="@style/ListBoldText"
+        android:layout_weight="2"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/tvPresNoSlides"
+        android:layout_weight="2"
+        style="@style/ListBoldText" />
+
+    <TextView
+        android:id="@+id/tvDownloaded"
+        android:layout_weight="1"
+        android:layout_marginRight="30dp"
+        android:gravity="end"
+        android:layout_gravity="end"
+        style="@style/ListBoldText" />
+
+</LinearLayout>

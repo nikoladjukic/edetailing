@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuPresentations"
+        android:title="@string/all_presentations_menu_item_title" />
+    <item android:id="@+id/mnuSlideTimings"
+        android:title="@string/all_slide_timings_menu_item_title" />
+    <item android:id="@+id/mnuSynchronize"
+        android:title="@string/synchronize_menu_item_title" />
+    <item android:id="@+id/mnuLogout"
+        android:title="@string/logout_menu_item_title" />
+</menu>
